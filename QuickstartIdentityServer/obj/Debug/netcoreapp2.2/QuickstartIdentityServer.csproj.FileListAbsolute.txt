@@ -2,7 +2,6 @@ D:\xx\ZHCG1.0\QuickstartIdentityServer\bin\Debug\netcoreapp2.2\QuickstartIdentit
 D:\xx\ZHCG1.0\QuickstartIdentityServer\bin\Debug\netcoreapp2.2\QuickstartIdentityServer.runtimeconfig.json
 D:\xx\ZHCG1.0\QuickstartIdentityServer\bin\Debug\netcoreapp2.2\QuickstartIdentityServer.runtimeconfig.dev.json
 D:\xx\ZHCG1.0\QuickstartIdentityServer\bin\Debug\netcoreapp2.2\QuickstartIdentityServer.dll
-D:\xx\ZHCG1.0\QuickstartIdentityServer\obj\Debug\netcoreapp2.2\QuickstartIdentityServer.csprojAssemblyReference.cache
 D:\xx\ZHCG1.0\QuickstartIdentityServer\obj\Debug\netcoreapp2.2\QuickstartIdentityServer.csproj.CoreCompileInputs.cache
 D:\xx\ZHCG1.0\QuickstartIdentityServer\obj\Debug\netcoreapp2.2\QuickstartIdentityServer.RazorAssemblyInfo.cache
 D:\xx\ZHCG1.0\QuickstartIdentityServer\obj\Debug\netcoreapp2.2\QuickstartIdentityServer.RazorAssemblyInfo.cs

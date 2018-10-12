@@ -81,10 +81,11 @@ namespace QuickstartIdentityServer
                 app.UseDeveloperExceptionPage();
             }
             InitializeDatabase(app);
-            //app.Run(async (context) =>
-            //{
-            //    await context.Response.WriteAsync("Hello World!");
-            //});
+
+            app.UseIdentityServer();
+
+            app.UseStaticFiles();
+            app.UseMvcWithDefaultRoute();
         }
 
         private void InitializeDatabase(IApplicationBuilder app)

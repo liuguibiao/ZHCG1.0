@@ -1,0 +1,10 @@
+D:\xx\ZHCG1.0\Client\bin\Debug\netcoreapp2.1\Client.deps.json
+D:\xx\ZHCG1.0\Client\bin\Debug\netcoreapp2.1\Client.runtimeconfig.json
+D:\xx\ZHCG1.0\Client\bin\Debug\netcoreapp2.1\Client.runtimeconfig.dev.json
+D:\xx\ZHCG1.0\Client\bin\Debug\netcoreapp2.1\Client.dll
+D:\xx\ZHCG1.0\Client\obj\Debug\netcoreapp2.1\Client.csproj.CoreCompileInputs.cache
+D:\xx\ZHCG1.0\Client\obj\Debug\netcoreapp2.1\Client.AssemblyInfoInputs.cache
+D:\xx\ZHCG1.0\Client\obj\Debug\netcoreapp2.1\Client.AssemblyInfo.cs
+D:\xx\ZHCG1.0\Client\bin\Debug\netcoreapp2.1\Client.pdb
+D:\xx\ZHCG1.0\Client\obj\Debug\netcoreapp2.1\Client.dll
+D:\xx\ZHCG1.0\Client\obj\Debug\netcoreapp2.1\Client.pdb
