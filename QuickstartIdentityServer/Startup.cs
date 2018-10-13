@@ -13,7 +13,7 @@ using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.IdentityModel.Tokens;
 
-namespace QuickstartIdentityServer
+namespace ZHCG.IdentityServer
 {
     public class Startup
     {

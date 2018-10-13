@@ -11759,9 +11759,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\ZHCG1.0\\ZHCG.Api\\ZHCG.Api.csproj",
-      "projectName": "ZHCG.Api",
-      "projectPath": "E:\\ZHCG1.0\\ZHCG.Api\\ZHCG.Api.csproj",
+      "projectUniqueName": "E:\\ZHCG1.0\\ZHCG.Api\\ZHCG.WebApi.csproj",
+      "projectName": "ZHCG.WebApi",
+      "projectPath": "E:\\ZHCG1.0\\ZHCG.Api\\ZHCG.WebApi.csproj",
       "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
       "outputPath": "E:\\ZHCG1.0\\ZHCG.Api\\obj\\",
       "projectStyle": "PackageReference",

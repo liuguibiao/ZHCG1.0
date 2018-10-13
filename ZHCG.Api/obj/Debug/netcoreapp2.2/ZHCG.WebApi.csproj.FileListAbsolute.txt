@@ -1,0 +1,13 @@
+E:\ZHCG1.0\ZHCG.Api\bin\Debug\netcoreapp2.2\ZHCG.WebApi.deps.json
+E:\ZHCG1.0\ZHCG.Api\bin\Debug\netcoreapp2.2\ZHCG.WebApi.runtimeconfig.json
+E:\ZHCG1.0\ZHCG.Api\bin\Debug\netcoreapp2.2\ZHCG.WebApi.runtimeconfig.dev.json
+E:\ZHCG1.0\ZHCG.Api\bin\Debug\netcoreapp2.2\ZHCG.WebApi.dll
+E:\ZHCG1.0\ZHCG.Api\bin\Debug\netcoreapp2.2\ZHCG.WebApi.pdb
+E:\ZHCG1.0\ZHCG.Api\obj\Debug\netcoreapp2.2\ZHCG.WebApi.csproj.CoreCompileInputs.cache
+E:\ZHCG1.0\ZHCG.Api\obj\Debug\netcoreapp2.2\ZHCG.WebApi.RazorAssemblyInfo.cache
+E:\ZHCG1.0\ZHCG.Api\obj\Debug\netcoreapp2.2\ZHCG.WebApi.RazorAssemblyInfo.cs
+E:\ZHCG1.0\ZHCG.Api\obj\Debug\netcoreapp2.2\ZHCG.WebApi.AssemblyInfoInputs.cache
+E:\ZHCG1.0\ZHCG.Api\obj\Debug\netcoreapp2.2\ZHCG.WebApi.AssemblyInfo.cs
+E:\ZHCG1.0\ZHCG.Api\obj\Debug\netcoreapp2.2\ZHCG.WebApi.RazorTargetAssemblyInfo.cache
+E:\ZHCG1.0\ZHCG.Api\obj\Debug\netcoreapp2.2\ZHCG.WebApi.dll
+E:\ZHCG1.0\ZHCG.Api\obj\Debug\netcoreapp2.2\ZHCG.WebApi.pdb

@@ -7,7 +7,7 @@ using Microsoft.EntityFrameworkCore.Metadata;
 using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 
-namespace QuickstartIdentityServer.Data.Migrations.IdentityServer.PersistedGrantDb
+namespace ZHCG.IdentityServer.Data.Migrations.IdentityServer.PersistedGrantDb
 {
     [DbContext(typeof(PersistedGrantDbContext))]
     [Migration("20181012015208_InitialIdentityServerPersistedGrantDbMigration")]

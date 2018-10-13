@@ -12000,9 +12000,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\ZHCG1.0\\QuickstartIdentityServer\\QuickstartIdentityServer.csproj",
-      "projectName": "QuickstartIdentityServer",
-      "projectPath": "E:\\ZHCG1.0\\QuickstartIdentityServer\\QuickstartIdentityServer.csproj",
+      "projectUniqueName": "E:\\ZHCG1.0\\QuickstartIdentityServer\\ZHCG.IdentityServer.csproj",
+      "projectName": "ZHCG.IdentityServer",
+      "projectPath": "E:\\ZHCG1.0\\QuickstartIdentityServer\\ZHCG.IdentityServer.csproj",
       "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
       "outputPath": "E:\\ZHCG1.0\\QuickstartIdentityServer\\obj\\",
       "projectStyle": "PackageReference",
