@@ -11,3 +11,17 @@ D:\xx\ZHCG1.0\QuickstartIdentityServer\obj\Debug\netcoreapp2.2\QuickstartIdentit
 D:\xx\ZHCG1.0\QuickstartIdentityServer\bin\Debug\netcoreapp2.2\QuickstartIdentityServer.pdb
 D:\xx\ZHCG1.0\QuickstartIdentityServer\obj\Debug\netcoreapp2.2\QuickstartIdentityServer.dll
 D:\xx\ZHCG1.0\QuickstartIdentityServer\obj\Debug\netcoreapp2.2\QuickstartIdentityServer.pdb
+E:\ZHCG1.0\QuickstartIdentityServer\obj\Debug\netcoreapp2.2\QuickstartIdentityServer.csproj.CoreCompileInputs.cache
+E:\ZHCG1.0\QuickstartIdentityServer\obj\Debug\netcoreapp2.2\QuickstartIdentityServer.AssemblyInfoInputs.cache
+E:\ZHCG1.0\QuickstartIdentityServer\obj\Debug\netcoreapp2.2\QuickstartIdentityServer.AssemblyInfo.cs
+E:\ZHCG1.0\QuickstartIdentityServer\obj\Debug\netcoreapp2.2\QuickstartIdentityServer.dll
+E:\ZHCG1.0\QuickstartIdentityServer\obj\Debug\netcoreapp2.2\QuickstartIdentityServer.pdb
+E:\ZHCG1.0\QuickstartIdentityServer\bin\Debug\netcoreapp2.2\QuickstartIdentityServer.deps.json
+E:\ZHCG1.0\QuickstartIdentityServer\bin\Debug\netcoreapp2.2\QuickstartIdentityServer.runtimeconfig.json
+E:\ZHCG1.0\QuickstartIdentityServer\bin\Debug\netcoreapp2.2\QuickstartIdentityServer.runtimeconfig.dev.json
+E:\ZHCG1.0\QuickstartIdentityServer\bin\Debug\netcoreapp2.2\QuickstartIdentityServer.dll
+E:\ZHCG1.0\QuickstartIdentityServer\bin\Debug\netcoreapp2.2\QuickstartIdentityServer.pdb
+E:\ZHCG1.0\QuickstartIdentityServer\obj\Debug\netcoreapp2.2\QuickstartIdentityServer.csprojAssemblyReference.cache
+E:\ZHCG1.0\QuickstartIdentityServer\obj\Debug\netcoreapp2.2\QuickstartIdentityServer.RazorAssemblyInfo.cache
+E:\ZHCG1.0\QuickstartIdentityServer\obj\Debug\netcoreapp2.2\QuickstartIdentityServer.RazorAssemblyInfo.cs
+E:\ZHCG1.0\QuickstartIdentityServer\obj\Debug\netcoreapp2.2\QuickstartIdentityServer.RazorTargetAssemblyInfo.cache
