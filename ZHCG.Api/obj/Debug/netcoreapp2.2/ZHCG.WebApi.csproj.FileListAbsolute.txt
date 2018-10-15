@@ -11,3 +11,7 @@ E:\ZHCG1.0\ZHCG.Api\obj\Debug\netcoreapp2.2\ZHCG.WebApi.AssemblyInfo.cs
 E:\ZHCG1.0\ZHCG.Api\obj\Debug\netcoreapp2.2\ZHCG.WebApi.RazorTargetAssemblyInfo.cache
 E:\ZHCG1.0\ZHCG.Api\obj\Debug\netcoreapp2.2\ZHCG.WebApi.dll
 E:\ZHCG1.0\ZHCG.Api\obj\Debug\netcoreapp2.2\ZHCG.WebApi.pdb
+E:\ZHCG1.0\ZHCG.Api\obj\Debug\netcoreapp2.2\ZHCG.WebApi.csprojAssemblyReference.cache
+E:\ZHCG1.0\ZHCG.Api\bin\Debug\netcoreapp2.2\ZHCG.Data.dll
+E:\ZHCG1.0\ZHCG.Api\bin\Debug\netcoreapp2.2\ZHCG.Data.pdb
+E:\ZHCG1.0\ZHCG.Api\obj\Debug\netcoreapp2.2\ZHCG.WebApi.csproj.CopyComplete

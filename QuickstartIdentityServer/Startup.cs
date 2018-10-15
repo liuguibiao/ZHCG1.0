@@ -23,7 +23,7 @@ namespace ZHCG.IdentityServer
         {
             services.AddMvc();
 
-            const string connectionString = @"Data Source=.;Initial Catalog=ZHCG_DB_1.0;Integrated Security=True";
+            const string connectionString = @"Data Source=.;Initial Catalog=ZHCG_IdentityServer_Db;Integrated Security=True";
             var migrationsAssembly = typeof(Startup).GetTypeInfo().Assembly.GetName().Name;
 
             // configure identity server with in-memory stores, keys, clients and scopes

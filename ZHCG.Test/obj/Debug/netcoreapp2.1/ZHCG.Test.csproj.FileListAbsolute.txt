@@ -1,0 +1,14 @@
+E:\ZHCG1.0\ZHCG.Test\bin\Debug\netcoreapp2.1\xunit.runner.visualstudio.dotnetcore.testadapter.dll
+E:\ZHCG1.0\ZHCG.Test\bin\Debug\netcoreapp2.1\xunit.runner.reporters.netcoreapp10.dll
+E:\ZHCG1.0\ZHCG.Test\bin\Debug\netcoreapp2.1\xunit.runner.utility.netcoreapp10.dll
+E:\ZHCG1.0\ZHCG.Test\bin\Debug\netcoreapp2.1\ZHCG.Test.deps.json
+E:\ZHCG1.0\ZHCG.Test\bin\Debug\netcoreapp2.1\ZHCG.Test.runtimeconfig.json
+E:\ZHCG1.0\ZHCG.Test\bin\Debug\netcoreapp2.1\ZHCG.Test.runtimeconfig.dev.json
+E:\ZHCG1.0\ZHCG.Test\bin\Debug\netcoreapp2.1\ZHCG.Test.dll
+E:\ZHCG1.0\ZHCG.Test\bin\Debug\netcoreapp2.1\ZHCG.Test.pdb
+E:\ZHCG1.0\ZHCG.Test\obj\Debug\netcoreapp2.1\ZHCG.Test.csprojAssemblyReference.cache
+E:\ZHCG1.0\ZHCG.Test\obj\Debug\netcoreapp2.1\ZHCG.Test.csproj.CoreCompileInputs.cache
+E:\ZHCG1.0\ZHCG.Test\obj\Debug\netcoreapp2.1\ZHCG.Test.AssemblyInfoInputs.cache
+E:\ZHCG1.0\ZHCG.Test\obj\Debug\netcoreapp2.1\ZHCG.Test.AssemblyInfo.cs
+E:\ZHCG1.0\ZHCG.Test\obj\Debug\netcoreapp2.1\ZHCG.Test.dll
+E:\ZHCG1.0\ZHCG.Test\obj\Debug\netcoreapp2.1\ZHCG.Test.pdb

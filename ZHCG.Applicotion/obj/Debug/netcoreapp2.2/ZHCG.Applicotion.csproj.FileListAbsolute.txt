@@ -1,0 +1,9 @@
+E:\ZHCG1.0\ZHCG.Applicotion\bin\Debug\netcoreapp2.2\ZHCG.Applicotion.deps.json
+E:\ZHCG1.0\ZHCG.Applicotion\bin\Debug\netcoreapp2.2\ZHCG.Applicotion.dll
+E:\ZHCG1.0\ZHCG.Applicotion\bin\Debug\netcoreapp2.2\ZHCG.Applicotion.pdb
+E:\ZHCG1.0\ZHCG.Applicotion\obj\Debug\netcoreapp2.2\ZHCG.Applicotion.csprojAssemblyReference.cache
+E:\ZHCG1.0\ZHCG.Applicotion\obj\Debug\netcoreapp2.2\ZHCG.Applicotion.csproj.CoreCompileInputs.cache
+E:\ZHCG1.0\ZHCG.Applicotion\obj\Debug\netcoreapp2.2\ZHCG.Applicotion.AssemblyInfoInputs.cache
+E:\ZHCG1.0\ZHCG.Applicotion\obj\Debug\netcoreapp2.2\ZHCG.Applicotion.AssemblyInfo.cs
+E:\ZHCG1.0\ZHCG.Applicotion\obj\Debug\netcoreapp2.2\ZHCG.Applicotion.dll
+E:\ZHCG1.0\ZHCG.Applicotion\obj\Debug\netcoreapp2.2\ZHCG.Applicotion.pdb

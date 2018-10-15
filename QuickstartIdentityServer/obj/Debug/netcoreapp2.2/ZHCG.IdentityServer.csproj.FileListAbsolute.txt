@@ -1,0 +1,14 @@
+E:\ZHCG1.0\QuickstartIdentityServer\bin\Debug\netcoreapp2.2\ZHCG.IdentityServer.deps.json
+E:\ZHCG1.0\QuickstartIdentityServer\bin\Debug\netcoreapp2.2\ZHCG.IdentityServer.runtimeconfig.json
+E:\ZHCG1.0\QuickstartIdentityServer\bin\Debug\netcoreapp2.2\ZHCG.IdentityServer.runtimeconfig.dev.json
+E:\ZHCG1.0\QuickstartIdentityServer\bin\Debug\netcoreapp2.2\ZHCG.IdentityServer.dll
+E:\ZHCG1.0\QuickstartIdentityServer\bin\Debug\netcoreapp2.2\ZHCG.IdentityServer.pdb
+E:\ZHCG1.0\QuickstartIdentityServer\obj\Debug\netcoreapp2.2\ZHCG.IdentityServer.csprojAssemblyReference.cache
+E:\ZHCG1.0\QuickstartIdentityServer\obj\Debug\netcoreapp2.2\ZHCG.IdentityServer.csproj.CoreCompileInputs.cache
+E:\ZHCG1.0\QuickstartIdentityServer\obj\Debug\netcoreapp2.2\ZHCG.IdentityServer.RazorAssemblyInfo.cache
+E:\ZHCG1.0\QuickstartIdentityServer\obj\Debug\netcoreapp2.2\ZHCG.IdentityServer.RazorAssemblyInfo.cs
+E:\ZHCG1.0\QuickstartIdentityServer\obj\Debug\netcoreapp2.2\ZHCG.IdentityServer.AssemblyInfoInputs.cache
+E:\ZHCG1.0\QuickstartIdentityServer\obj\Debug\netcoreapp2.2\ZHCG.IdentityServer.AssemblyInfo.cs
+E:\ZHCG1.0\QuickstartIdentityServer\obj\Debug\netcoreapp2.2\ZHCG.IdentityServer.RazorTargetAssemblyInfo.cache
+E:\ZHCG1.0\QuickstartIdentityServer\obj\Debug\netcoreapp2.2\ZHCG.IdentityServer.dll
+E:\ZHCG1.0\QuickstartIdentityServer\obj\Debug\netcoreapp2.2\ZHCG.IdentityServer.pdb
