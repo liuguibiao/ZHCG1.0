@@ -64,11 +64,6 @@ namespace Client
             Console.WriteLine(tokenResponse.Json);
             Console.WriteLine("\n\n");
 
-            var usclient = new HttpClient();
-            usclient.SetBearerToken(tokenResponse.AccessToken);
-            var re = await usclient.GetAsync("http://localhost:5000/connect/userinfo");
-            Console.WriteLine(JArray.Parse(await re.Content.ReadAsStringAsync()));
-
             // call api
             var client = new HttpClient();
             client.SetBearerToken(tokenResponse.AccessToken);

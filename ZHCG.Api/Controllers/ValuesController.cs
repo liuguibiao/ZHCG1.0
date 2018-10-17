@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
+using ZHCG.Core.Log;
 using ZHCG.Data;
 
 namespace ZHCG.WebApi.Controllers
@@ -11,10 +12,12 @@ namespace ZHCG.WebApi.Controllers
     [ApiController]
     public class ValuesController : ControllerBase
     {
+        private readonly ILog4NetServer _log4NetServer;
         private readonly ZHCGContext _context;
-        public ValuesController(ZHCGContext context)
+        public ValuesController(ZHCGContext context, ILog4NetServer log4NetServer)
         {
             _context = context;
+            _log4NetServer = log4NetServer;
         }
         // GET api/values
         [HttpGet]
@@ -26,6 +29,7 @@ namespace ZHCG.WebApi.Controllers
                 Password = "123"
             });
             _context.SaveChanges();
+            _log4NetServer.Log.Error("张三asddasdsa");
             return new string[] { "value1", "value2" };
         }
 

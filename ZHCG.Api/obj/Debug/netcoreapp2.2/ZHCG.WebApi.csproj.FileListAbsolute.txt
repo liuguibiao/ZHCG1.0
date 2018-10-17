@@ -15,3 +15,7 @@ E:\ZHCG1.0\ZHCG.Api\obj\Debug\netcoreapp2.2\ZHCG.WebApi.csprojAssemblyReference.
 E:\ZHCG1.0\ZHCG.Api\bin\Debug\netcoreapp2.2\ZHCG.Data.dll
 E:\ZHCG1.0\ZHCG.Api\bin\Debug\netcoreapp2.2\ZHCG.Data.pdb
 E:\ZHCG1.0\ZHCG.Api\obj\Debug\netcoreapp2.2\ZHCG.WebApi.csproj.CopyComplete
+E:\ZHCG1.0\ZHCG.Api\bin\Debug\netcoreapp2.2\ZHCG.Applicotion.dll
+E:\ZHCG1.0\ZHCG.Api\bin\Debug\netcoreapp2.2\ZHCG.Core.dll
+E:\ZHCG1.0\ZHCG.Api\bin\Debug\netcoreapp2.2\ZHCG.Applicotion.pdb
+E:\ZHCG1.0\ZHCG.Api\bin\Debug\netcoreapp2.2\ZHCG.Core.pdb

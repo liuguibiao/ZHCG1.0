@@ -10,6 +10,7 @@ using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Logging;
 using Microsoft.Extensions.Options;
+using ZHCG.Core;
 using ZHCG.Data;
 
 namespace ZHCG.WebApi
@@ -50,7 +51,7 @@ namespace ZHCG.WebApi
                         .AllowAnyMethod();
                 });
             });
-
+            new CoreRegister().DIRegister(services);
             services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_2_2);
         }
 
@@ -67,7 +68,7 @@ namespace ZHCG.WebApi
             app.UseAuthentication();
 
             app.UseMvc();
-
+            app.UseStaticFiles();
             context.Database.EnsureCreated();
         }
     }
