@@ -6,3 +6,4 @@ E:\ZHCG1.0\ZHCG.Applicotion\obj\Debug\netcoreapp2.2\ZHCG.Applicotion.AssemblyInf
 E:\ZHCG1.0\ZHCG.Applicotion\obj\Debug\netcoreapp2.2\ZHCG.Applicotion.AssemblyInfo.cs
 E:\ZHCG1.0\ZHCG.Applicotion\obj\Debug\netcoreapp2.2\ZHCG.Applicotion.dll
 E:\ZHCG1.0\ZHCG.Applicotion\obj\Debug\netcoreapp2.2\ZHCG.Applicotion.pdb
+E:\ZHCG1.0\ZHCG.Applicotion\obj\Debug\netcoreapp2.2\ZHCG.Applicotion.csprojAssemblyReference.cache
