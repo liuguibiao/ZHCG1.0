@@ -2,6 +2,25 @@
   "version": 3,
   "targets": {
     ".NETCoreApp,Version=v2.2": {
+      "EnyimMemcachedCore/2.1.10": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.AspNetCore.Http.Abstractions": "2.1.1",
+          "Microsoft.Extensions.Caching.Abstractions": "2.1.2",
+          "Microsoft.Extensions.Configuration.Abstractions": "2.1.1",
+          "Microsoft.Extensions.Logging.Abstractions": "2.1.1",
+          "Microsoft.Extensions.Options": "2.1.1",
+          "Microsoft.Extensions.Options.ConfigurationExtensions": "2.1.1",
+          "Newtonsoft.Json.Bson": "1.0.1",
+          "System.Threading.Tasks.Extensions": "4.5.1"
+        },
+        "compile": {
+          "lib/netstandard2.0/EnyimMemcachedCore.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/EnyimMemcachedCore.dll": {}
+        }
+      },
       "IdentityModel/3.6.0": {
         "type": "package",
         "dependencies": {
@@ -4789,8 +4808,9 @@
       },
       "ZHCG.Core/1.0.0": {
         "type": "project",
-        "framework": ".NETCoreApp,Version=v2.1",
+        "framework": ".NETCoreApp,Version=v2.2",
         "dependencies": {
+          "EnyimMemcachedCore": "2.1.10",
           "Microsoft.Extensions.DependencyInjection": "2.1.1",
           "log4net": "2.0.8"
         },
@@ -4818,6 +4838,17 @@
     }
   },
   "libraries": {
+    "EnyimMemcachedCore/2.1.10": {
+      "sha512": "WR1qUf7++IjsW+Kw0oWjVDxuR+YFMaGoLlcjx37qbUWR4vNL955Y/t4i68Pkbr03oXF9divmJcmBKLZRYcNi4Q==",
+      "type": "package",
+      "path": "enyimmemcachedcore/2.1.10",
+      "files": [
+        ".signature.p7s",
+        "enyimmemcachedcore.2.1.10.nupkg.sha512",
+        "enyimmemcachedcore.nuspec",
+        "lib/netstandard2.0/EnyimMemcachedCore.dll"
+      ]
+    },
     "IdentityModel/3.6.0": {
       "sha512": "7398ntAQ/wlrZA9IjXA8ixrPIomBqnY3fp10FLle6WhhyWdZIEuhZEgvAfIEo+6zjktmJvhwBOAuQeNULNVyDQ==",
       "type": "package",

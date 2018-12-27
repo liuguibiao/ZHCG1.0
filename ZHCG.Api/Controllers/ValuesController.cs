@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using Enyim.Caching;
 using Microsoft.AspNetCore.Mvc;
 using ZHCG.Core.Log;
 using ZHCG.Data;
@@ -14,22 +15,18 @@ namespace ZHCG.WebApi.Controllers
     {
         private readonly ILog4NetServer _log4NetServer;
         private readonly ZHCGContext _context;
-        public ValuesController(ZHCGContext context, ILog4NetServer log4NetServer)
+        private IMemcachedClient _memcachedClient;
+        public ValuesController(ZHCGContext context, ILog4NetServer log4NetServer, IMemcachedClient memcachedClient)
         {
             _context = context;
             _log4NetServer = log4NetServer;
+            _memcachedClient = memcachedClient;
         }
+
         // GET api/values
         [HttpGet]
         public ActionResult<IEnumerable<string>> Get()
         {
-            _context.Users.Add(new Data.Entity.Users
-            {
-                Name = "张三",
-                Password = "123"
-            });
-            _context.SaveChanges();
-            _log4NetServer.Log.Error("张三asddasdsa");
             return new string[] { "value1", "value2" };
         }
 

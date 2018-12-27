@@ -1,3 +1,60 @@
-<h3>
-123213
-</h3>
+<style type="text/css">
+    #box {
+        width: 100px;
+        height: 100px;
+        background: black;
+        /*一定要给当前元素设置绝对定位*/
+        position: absolute;
+        left: 0;
+        top: 0;
+    }
+    .box {
+        width: 100px;
+        height: 100px;
+        background: black;
+        /*一定要给当前元素设置绝对定位*/
+        position: absolute;
+        left: 0;
+        top: 0;
+    }
+</style>
+<div id="box" my-drag></div>
+<div class="box" my-drag></div>
+<script type="text/javascript">
+    //          自定义一个模块
+    var app = App;
+    //          自定义指令  自定义指令时一定要使用驼峰命名法
+    app.directive('myDrag', function () {
+        //              返回一个函数
+        return {
+            link: function (scope, element, attr) {
+                //                      scope可以接收到的数据
+                //                      element 当前的元素
+                //                      attr属性
+
+                //                      拖拽的三大事件mousedown,mousemove,mouseup.使用jq绑定事件的方法进行绑定
+                element.on('mousedown', function (ev) {
+                    //                          通过event获取到当前对象
+                    var This = $(this);
+                    //                          获取到鼠标离当前元素上边框的距离
+                    var disX = ev.clientX - $(this).offset().left;
+                    //                          获取到元素距离左边框的距离
+                    //                          因为在拖拽的过程中不变的是鼠标距离元素边框的距离  通过不变和已知求变量
+                    var disY = ev.clientY - $(this).offset().top;
+                    $(document).on('mousemove', function (ev) {
+                        //                              将所改变的值通过样式设置给当前元素
+                        This.css({
+                            left: ev.clientX - disX,
+                            top: ev.clientY - disY,
+                        });
+                    });
+                    $(document).on('mouseup', function () {
+                        //                              鼠标松开时关闭所有事件
+                        $(document).off();
+                    })
+                })
+            },
+            restrict: 'A', //ECMA        E元素  C类名 M注释 A属性
+        };
+    });
+</script>

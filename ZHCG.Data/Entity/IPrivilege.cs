@@ -22,5 +22,9 @@ namespace ZHCG.Data.Entity
         /// 修改人
         /// </summary>
         long UpdateUserId { get; set; }
+        /// <summary>
+        /// 是否删除
+        /// </summary>
+        bool IsDelete { get; set; }
     }
 }

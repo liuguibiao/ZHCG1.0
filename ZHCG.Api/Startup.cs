@@ -51,7 +51,7 @@ namespace ZHCG.WebApi
                         .AllowAnyMethod();
                 });
             });
-            new CoreRegister().DIRegister(services);
+            new CoreStartup(Configuration).ConfigureServices(services);
             services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_2_2);
         }
 
@@ -62,11 +62,10 @@ namespace ZHCG.WebApi
             {
                 app.UseDeveloperExceptionPage();
             }
+            new CoreStartup(Configuration).Configure(app);
 
             app.UseCors("default");
-
             app.UseAuthentication();
-
             app.UseMvc();
             app.UseStaticFiles();
             context.Database.EnsureCreated();

@@ -29,15 +29,20 @@ namespace ZHCG.Data.Migrations
 
                     b.Property<long>("CreateUserId");
 
-                    b.Property<string>("Name");
+                    b.Property<bool>("IsDelete");
 
-                    b.Property<string>("Password");
+                    b.Property<string>("Name")
+                        .HasMaxLength(50);
+
+                    b.Property<string>("Password")
+                        .HasMaxLength(50);
 
                     b.Property<DateTime>("UpdateTime");
 
                     b.Property<long>("UpdateUserId");
 
-                    b.Property<string>("UserName");
+                    b.Property<string>("UserName")
+                        .HasMaxLength(50);
 
                     b.HasKey("Id");
 

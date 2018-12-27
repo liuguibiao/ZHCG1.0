@@ -4,10 +4,10 @@ using ZHCG.Data.Entity;
 
 namespace ZHCG.Data
 {
-    public class ZHCGContext:DbContext
+    public class ZHCGContext : DbContext
     {
         public ZHCGContext(DbContextOptions<ZHCGContext> options)
-            :base(options)
+            : base(options)
         {
 
         }

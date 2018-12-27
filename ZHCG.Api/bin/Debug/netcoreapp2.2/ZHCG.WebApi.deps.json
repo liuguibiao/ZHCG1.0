@@ -1,7 +1,7 @@
 {
   "runtimeTarget": {
     "name": ".NETCoreApp,Version=v2.2",
-    "signature": "0d769be0c7c6daafdadff064582c306fa141638d"
+    "signature": "e9124971182b812808207e4c0c5079ce27e9673e"
   },
   "compilationOptions": {
     "defines": [
@@ -37,6 +37,27 @@
         },
         "compile": {
           "ZHCG.WebApi.dll": {}
+        }
+      },
+      "EnyimMemcachedCore/2.1.10": {
+        "dependencies": {
+          "Microsoft.AspNetCore.Http.Abstractions": "2.2.0-preview2-35157",
+          "Microsoft.Extensions.Caching.Abstractions": "2.2.0-preview2-35157",
+          "Microsoft.Extensions.Configuration.Abstractions": "2.2.0-preview2-35157",
+          "Microsoft.Extensions.Logging.Abstractions": "2.2.0-preview2-35157",
+          "Microsoft.Extensions.Options": "2.2.0-preview2-35157",
+          "Microsoft.Extensions.Options.ConfigurationExtensions": "2.2.0-preview2-35157",
+          "Newtonsoft.Json.Bson": "1.0.1",
+          "System.Threading.Tasks.Extensions": "4.5.1"
+        },
+        "runtime": {
+          "lib/netstandard2.0/EnyimMemcachedCore.dll": {
+            "assemblyVersion": "2.1.8.0",
+            "fileVersion": "2.1.8.0"
+          }
+        },
+        "compile": {
+          "lib/netstandard2.0/EnyimMemcachedCore.dll": {}
         }
       },
       "IdentityModel/3.6.0": {
@@ -523,6 +544,7 @@
       },
       "ZHCG.Core/1.0.0": {
         "dependencies": {
+          "EnyimMemcachedCore": "2.1.10",
           "Microsoft.Extensions.DependencyInjection": "2.2.0-preview2-35157",
           "log4net": "2.0.8"
         },
@@ -3554,6 +3576,13 @@
       "type": "project",
       "serviceable": false,
       "sha512": ""
+    },
+    "EnyimMemcachedCore/2.1.10": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-WR1qUf7++IjsW+Kw0oWjVDxuR+YFMaGoLlcjx37qbUWR4vNL955Y/t4i68Pkbr03oXF9divmJcmBKLZRYcNi4Q==",
+      "path": "enyimmemcachedcore/2.1.10",
+      "hashPath": "enyimmemcachedcore.2.1.10.nupkg.sha512"
     },
     "IdentityModel/3.6.0": {
       "type": "package",

@@ -18,4 +18,7 @@
   <ItemGroup>
     <DotNetCliToolReference Include="Microsoft.EntityFrameworkCore.Tools.DotNet" Version="2.1.1" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\ZHCG.Core\ZHCG.Core.csproj" />
+  </ItemGroup>
 </Project>

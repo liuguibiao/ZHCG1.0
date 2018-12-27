@@ -6,7 +6,27 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Compile Remove="wwwroot\drw\**" />
+    <Compile Remove="wwwroot\WorkFlow%28js%29\**" />
+    <Content Remove="wwwroot\drw\**" />
+    <Content Remove="wwwroot\WorkFlow%28js%29\**" />
+    <EmbeddedResource Remove="wwwroot\drw\**" />
+    <EmbeddedResource Remove="wwwroot\WorkFlow%28js%29\**" />
+    <None Remove="wwwroot\drw\**" />
+    <None Remove="wwwroot\WorkFlow%28js%29\**" />
+  </ItemGroup>
+
+  <ItemGroup>
     <Content Remove="log4net.config" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Include="wwwroot\TestJsPlumb\.idea\encodings.xml" />
+    <Content Include="wwwroot\TestJsPlumb\.idea\misc.xml" />
+    <Content Include="wwwroot\TestJsPlumb\.idea\modules.xml" />
+    <Content Include="wwwroot\TestJsPlumb\.idea\scopes\scope_settings.xml" />
+    <Content Include="wwwroot\TestJsPlumb\.idea\vcs.xml" />
+    <Content Include="wwwroot\TestJsPlumb\.idea\workspace.xml" />
   </ItemGroup>
 
   <ItemGroup>
@@ -1017,5 +1037,37 @@
     <None Include="wwwroot\angularjs\vendor\weather-icons\font\weathericons-regular-webfont.woff" />
     <None Include="wwwroot\angularjs\vendor\weather-icons\font\WeatherIcons-Regular.otf" />
     <None Include="wwwroot\angularjs\vendor\whirl\dist\whirl.css" />
+    <None Include="wwwroot\TestJsPlumb\.idea\TestJsPlumb.iml" />
+    <None Include="wwwroot\TestJsPlumb\jquery-1.9.0.js" />
+    <None Include="wwwroot\TestJsPlumb\jquery-ui-1.9.2-min.js" />
+    <None Include="wwwroot\TestJsPlumb\jquery.jsPlumb-1.4.0-all.js" />
+    <None Include="wwwroot\visual-ivr-master\.gitignore" />
+    <None Include="wwwroot\visual-ivr-master\index.js" />
+    <None Include="wwwroot\visual-ivr-master\public\js\api.js" />
+    <None Include="wwwroot\visual-ivr-master\public\js\config.js" />
+    <None Include="wwwroot\visual-ivr-master\public\js\data.js" />
+    <None Include="wwwroot\visual-ivr-master\public\js\graphlib.min.js" />
+    <None Include="wwwroot\visual-ivr-master\public\js\index.js" />
+    <None Include="wwwroot\visual-ivr-master\README.md" />
+    <None Include="wwwroot\visual-ivr-master\src\api.js" />
+    <None Include="wwwroot\visual-ivr-master\src\config\api.config.js" />
+    <None Include="wwwroot\visual-ivr-master\src\config\dom.config.js" />
+    <None Include="wwwroot\visual-ivr-master\src\config\jsplumb.config.js" />
+    <None Include="wwwroot\visual-ivr-master\src\config\test-data.js" />
+    <None Include="wwwroot\visual-ivr-master\src\data-handle.js" />
+    <None Include="wwwroot\visual-ivr-master\src\index.js" />
+    <None Include="wwwroot\visual-ivr-master\src\node-draw.js" />
+    <None Include="wwwroot\visual-ivr-master\src\template\index.js" />
+    <None Include="wwwroot\visual-ivr-master\src\util.js" />
+    <None Include="wwwroot\visual-ivr-master\static\fonts\fontawesome-webfont.woff2" />
+    <None Include="wwwroot\visual-ivr-master\static\js\graphlib.min.js" />
+    <None Include="wwwroot\visual-ivr-master\static\js\jquery-ui.min.js" />
+    <None Include="wwwroot\visual-ivr-master\static\js\jquery.jsPlumb.min.js" />
+    <None Include="wwwroot\visual-ivr-master\static\js\jquery.min.js" />
+    <None Include="wwwroot\visual-ivr-master\static\js\mustache.min.js" />
+    <None Include="wwwroot\visual-ivr-master\static\js\polyfill.min.js" />
+    <None Include="wwwroot\visual-ivr-master\static\js\uuid.min.js" />
+    <None Include="wwwroot\visual-ivr-master\webpack.config.js" />
+    <None Include="wwwroot\visual-ivr-master\yarn.lock" />
   </ItemGroup>
 </Project>

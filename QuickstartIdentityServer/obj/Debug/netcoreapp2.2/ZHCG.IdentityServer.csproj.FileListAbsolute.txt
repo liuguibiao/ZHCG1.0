@@ -12,3 +12,6 @@ E:\ZHCG1.0\QuickstartIdentityServer\obj\Debug\netcoreapp2.2\ZHCG.IdentityServer.
 E:\ZHCG1.0\QuickstartIdentityServer\obj\Debug\netcoreapp2.2\ZHCG.IdentityServer.RazorTargetAssemblyInfo.cache
 E:\ZHCG1.0\QuickstartIdentityServer\obj\Debug\netcoreapp2.2\ZHCG.IdentityServer.dll
 E:\ZHCG1.0\QuickstartIdentityServer\obj\Debug\netcoreapp2.2\ZHCG.IdentityServer.pdb
+E:\ZHCG1.0\QuickstartIdentityServer\bin\Debug\netcoreapp2.2\ZHCG.Core.dll
+E:\ZHCG1.0\QuickstartIdentityServer\bin\Debug\netcoreapp2.2\ZHCG.Core.pdb
+E:\ZHCG1.0\QuickstartIdentityServer\obj\Debug\netcoreapp2.2\ZHCG.IdentityServer.csproj.CopyComplete
