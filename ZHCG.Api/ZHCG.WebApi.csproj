@@ -21,15 +21,6 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Content Include="wwwroot\TestJsPlumb\.idea\encodings.xml" />
-    <Content Include="wwwroot\TestJsPlumb\.idea\misc.xml" />
-    <Content Include="wwwroot\TestJsPlumb\.idea\modules.xml" />
-    <Content Include="wwwroot\TestJsPlumb\.idea\scopes\scope_settings.xml" />
-    <Content Include="wwwroot\TestJsPlumb\.idea\vcs.xml" />
-    <Content Include="wwwroot\TestJsPlumb\.idea\workspace.xml" />
-  </ItemGroup>
-
-  <ItemGroup>
     <PackageReference Include="IdentityServer4.AccessTokenValidation" Version="2.6.0" />
     <PackageReference Include="Microsoft.AspNetCore.App" />
     <PackageReference Include="Microsoft.AspNetCore.Razor.Design" Version="2.2.0-preview2-35157" PrivateAssets="All" />
@@ -1037,37 +1028,17 @@
     <None Include="wwwroot\angularjs\vendor\weather-icons\font\weathericons-regular-webfont.woff" />
     <None Include="wwwroot\angularjs\vendor\weather-icons\font\WeatherIcons-Regular.otf" />
     <None Include="wwwroot\angularjs\vendor\whirl\dist\whirl.css" />
-    <None Include="wwwroot\TestJsPlumb\.idea\TestJsPlumb.iml" />
-    <None Include="wwwroot\TestJsPlumb\jquery-1.9.0.js" />
-    <None Include="wwwroot\TestJsPlumb\jquery-ui-1.9.2-min.js" />
-    <None Include="wwwroot\TestJsPlumb\jquery.jsPlumb-1.4.0-all.js" />
-    <None Include="wwwroot\visual-ivr-master\.gitignore" />
-    <None Include="wwwroot\visual-ivr-master\index.js" />
-    <None Include="wwwroot\visual-ivr-master\public\js\api.js" />
-    <None Include="wwwroot\visual-ivr-master\public\js\config.js" />
-    <None Include="wwwroot\visual-ivr-master\public\js\data.js" />
-    <None Include="wwwroot\visual-ivr-master\public\js\graphlib.min.js" />
-    <None Include="wwwroot\visual-ivr-master\public\js\index.js" />
-    <None Include="wwwroot\visual-ivr-master\README.md" />
-    <None Include="wwwroot\visual-ivr-master\src\api.js" />
-    <None Include="wwwroot\visual-ivr-master\src\config\api.config.js" />
-    <None Include="wwwroot\visual-ivr-master\src\config\dom.config.js" />
-    <None Include="wwwroot\visual-ivr-master\src\config\jsplumb.config.js" />
-    <None Include="wwwroot\visual-ivr-master\src\config\test-data.js" />
-    <None Include="wwwroot\visual-ivr-master\src\data-handle.js" />
-    <None Include="wwwroot\visual-ivr-master\src\index.js" />
-    <None Include="wwwroot\visual-ivr-master\src\node-draw.js" />
-    <None Include="wwwroot\visual-ivr-master\src\template\index.js" />
-    <None Include="wwwroot\visual-ivr-master\src\util.js" />
-    <None Include="wwwroot\visual-ivr-master\static\fonts\fontawesome-webfont.woff2" />
-    <None Include="wwwroot\visual-ivr-master\static\js\graphlib.min.js" />
-    <None Include="wwwroot\visual-ivr-master\static\js\jquery-ui.min.js" />
-    <None Include="wwwroot\visual-ivr-master\static\js\jquery.jsPlumb.min.js" />
-    <None Include="wwwroot\visual-ivr-master\static\js\jquery.min.js" />
-    <None Include="wwwroot\visual-ivr-master\static\js\mustache.min.js" />
-    <None Include="wwwroot\visual-ivr-master\static\js\polyfill.min.js" />
-    <None Include="wwwroot\visual-ivr-master\static\js\uuid.min.js" />
-    <None Include="wwwroot\visual-ivr-master\webpack.config.js" />
-    <None Include="wwwroot\visual-ivr-master\yarn.lock" />
+    <None Include="wwwroot\myflow\img\16\Thumbs.db" />
+    <None Include="wwwroot\myflow\img\48\Thumbs.db" />
+    <None Include="wwwroot\myflow\lib\jquery-ui-1.8.4.custom\js\jquery-1.4.2.min.js" />
+    <None Include="wwwroot\myflow\lib\jquery-ui-1.8.4.custom\js\jquery-ui-1.8.4.custom.min.js" />
+    <None Include="wwwroot\myflow\lib\raphael-min.js" />
+    <None Include="wwwroot\myflow\myflow.editors.js" />
+    <None Include="wwwroot\myflow\myflow.jpdl3.js" />
+    <None Include="wwwroot\myflow\myflow.jpdl4.js" />
+    <None Include="wwwroot\myflow\myflow.js" />
+    <None Include="wwwroot\myflow\myflow.min.js" />
   </ItemGroup>
+
+  <ProjectExtensions><VisualStudio><UserProperties appsettings_1json__JSONSchema="" /></VisualStudio></ProjectExtensions>
 </Project>

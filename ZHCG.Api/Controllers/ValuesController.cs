@@ -16,6 +16,7 @@ namespace ZHCG.WebApi.Controllers
         private readonly ILog4NetServer _log4NetServer;
         private readonly ZHCGContext _context;
         private IMemcachedClient _memcachedClient;
+        //static NLog.Logger Logger = NLog.LogManager.GetCurrentClassLogger();
         public ValuesController(ZHCGContext context, ILog4NetServer log4NetServer, IMemcachedClient memcachedClient)
         {
             _context = context;
@@ -27,6 +28,17 @@ namespace ZHCG.WebApi.Controllers
         [HttpGet]
         public ActionResult<IEnumerable<string>> Get()
         {
+            Logger.Default.Trace("Hello World! Trace");
+            Logger.Default.Info("Hello World! Info");
+            Logger.Default.Warn("Hello World! Warn");
+            Logger.Default.Debug("Hello World! Debug");
+            Logger.Default.Error("Hello World! Error");
+            Logger.Default.Fatal("Hello World! Fatal");
+
+            Logger.Default.Process(new ZHCG.Data.Entity.Logs("Info", "Hello World! Info", "TEST", "100.00"));
+            Logger.Default.Process(new ZHCG.Data.Entity.Logs("Debug", "Hello World! Debug", "TEST", "100.00"));
+            Logger.Default.Process(new ZHCG.Data.Entity.Logs("Error", "Hello World! Error", "TEST", "100.00"));
+            Logger.Default.Flush();
             return new string[] { "value1", "value2" };
         }
 

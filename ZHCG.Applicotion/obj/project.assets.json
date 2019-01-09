@@ -679,23 +679,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Admin\\.nuget\\packages\\": {},
+    "C:\\Users\\jiale.dai\\.nuget\\packages\\": {},
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\ZHCG1.0\\ZHCG.Applicotion\\ZHCG.Applicotion.csproj",
+      "projectUniqueName": "D:\\xx\\ZHCG1.0\\ZHCG.Applicotion\\ZHCG.Applicotion.csproj",
       "projectName": "ZHCG.Applicotion",
-      "projectPath": "E:\\ZHCG1.0\\ZHCG.Applicotion\\ZHCG.Applicotion.csproj",
-      "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
-      "outputPath": "E:\\ZHCG1.0\\ZHCG.Applicotion\\obj\\",
+      "projectPath": "D:\\xx\\ZHCG1.0\\ZHCG.Applicotion\\ZHCG.Applicotion.csproj",
+      "packagesPath": "C:\\Users\\jiale.dai\\.nuget\\packages\\",
+      "outputPath": "D:\\xx\\ZHCG1.0\\ZHCG.Applicotion\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "C:\\Users\\Admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\jiale.dai\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [

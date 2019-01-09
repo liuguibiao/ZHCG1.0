@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Text;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
@@ -10,6 +11,8 @@ using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Logging;
 using Microsoft.Extensions.Options;
+using NLog.Extensions.Logging;
+using NLog.Web;
 using ZHCG.Core;
 using ZHCG.Data;
 
@@ -56,7 +59,7 @@ namespace ZHCG.WebApi
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
-        public void Configure(IApplicationBuilder app, IHostingEnvironment env,ZHCGContext context)
+        public void Configure(IApplicationBuilder app, IHostingEnvironment env,ZHCGContext context, ILoggerFactory loggerFactory)
         {
             if (env.IsDevelopment())
             {
@@ -68,6 +71,10 @@ namespace ZHCG.WebApi
             app.UseAuthentication();
             app.UseMvc();
             app.UseStaticFiles();
+
+            loggerFactory.AddNLog();//添加NLog
+            env.ConfigureNLog("nlog.config");//读取Nlog配置文件
+
             context.Database.EnsureCreated();
         }
     }

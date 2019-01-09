@@ -1,0 +1,168 @@
+2019-01-09 15:41:24.7352 INFO  Request starting HTTP/1.1 GET http://localhost:5001/api/values    <ProcessRequests>d__189`1.MoveNext => HostingApplication.CreateContext => HostingApplicationDiagnostics.LogRequestStarting
+2019-01-09 15:41:24.7545 DEBUG  AuthenticationScheme: Bearer was not authenticated.  AsyncMethodBuilderCore.Start => <AuthenticateAsync>d__48.MoveNext => LoggingExtensions.AuthenticationSchemeNotAuthenticated
+2019-01-09 15:41:24.7825 INFO  Executing endpoint 'ZHCG.WebApi.Controllers.ValuesController.Get (ZHCG.WebApi)'.  AsyncMethodBuilderCore.Start => <Invoke>d__3.MoveNext => Log.ExecutingEndpoint
+2019-01-09 15:41:24.7878 INFO  Route matched with {action = "Get", controller = "Values"}. Executing action ZHCG.WebApi.Controllers.ValuesController.Get (ZHCG.WebApi)  AsyncMethodBuilderCore.Start => <InvokeAsync>d__16.MoveNext => MvcCoreLoggerExtensions.ExecutingAction
+2019-01-09 15:41:24.8175 INFO  Executing action method ZHCG.WebApi.Controllers.ValuesController.Get (ZHCG.WebApi) - Validation state: Valid  AsyncMethodBuilderCore.Start => <InvokeActionMethodAsync>d__12.MoveNext => MvcCoreLoggerExtensions.ActionMethodExecuting
+2019-01-09 15:41:30.6069 ERROR  Create PooledSocket  MemcachedNode.Ping => BinaryNode.CreateSocket => MemcachedNode.CreateSocket
+2019-01-09 15:41:30.6351 DEBUG  Still dead.  TimerQueueTimer.CallCallback => ExecutionContext.RunInternal => DefaultServerPool.rezCallback
+2019-01-09 15:41:30.8649 DEBUG  deadCount == 1, starting the timer.  TimerQueueTimer.CallCallback => ExecutionContext.RunInternal => DefaultServerPool.rezCallback
+2019-01-09 15:41:30.9392 INFO  Hello World! Info  <no type>.lambda_method => ValuesController.Get => Logger.Info
+2019-01-09 15:41:31.0848 WARN  Hello World! Warn  <no type>.lambda_method => ValuesController.Get => Logger.Warn
+2019-01-09 15:41:31.2358 DEBUG  Hello World! Debug  <no type>.lambda_method => ValuesController.Get => Logger.Debug
+2019-01-09 15:41:31.3830 ERROR  Hello World! Error  <no type>.lambda_method => ValuesController.Get => Logger.Error
+2019-01-09 15:41:31.5397 FATAL  Hello World! Fatal  <no type>.lambda_method => ValuesController.Get => Logger.Fatal
+2019-01-09 15:41:33.3476 INFO  Executed action method ZHCG.WebApi.Controllers.ValuesController.Get (ZHCG.WebApi), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 8524.2136ms.  AsyncMethodBuilderCore.Start => <InvokeActionMethodAsync>d__12.MoveNext => MvcCoreLoggerExtensions.ActionMethodExecuted
+2019-01-09 15:41:33.3476 INFO  Executing ObjectResult, writing value of type 'System.String[]'.  ObjectResult.ExecuteResultAsync => ObjectResultExecutor.ExecuteAsync => MvcCoreLoggerExtensions.ObjectResultExecuting
+2019-01-09 15:41:33.3476 INFO  Executed action ZHCG.WebApi.Controllers.ValuesController.Get (ZHCG.WebApi) in 8565.7995ms  AsyncMethodBuilderCore.Start => <InvokeAsync>d__16.MoveNext => MvcCoreLoggerExtensions.ExecutedAction
+2019-01-09 15:41:33.3693 INFO  Executed endpoint 'ZHCG.WebApi.Controllers.ValuesController.Get (ZHCG.WebApi)'.  AsyncMethodBuilderCore.Start => <Invoke>d__3.MoveNext => Log.ExecutedEndpoint
+2019-01-09 15:41:33.3693 INFO  Request finished in 8643.0481ms 200 application/json; charset=utf-8  <ProcessRequests>d__189`1.MoveNext => HostingApplication.DisposeContext => HostingApplicationDiagnostics.LogRequestFinished
+2019-01-09 15:41:40.9298 DEBUG  Checking the dead servers.  TimerQueueTimer.CallCallback => ExecutionContext.RunInternal => DefaultServerPool.rezCallback
+2019-01-09 15:41:40.9298 DEBUG  Dead: Unspecified/172.0.0.1:11211  TimerQueueTimer.CallCallback => ExecutionContext.RunInternal => DefaultServerPool.rezCallback
+2019-01-09 15:41:50.9390 ERROR  Create PooledSocket  MemcachedNode.Ping => BinaryNode.CreateSocket => MemcachedNode.CreateSocket
+2019-01-09 15:41:50.9444 DEBUG  Still dead.  TimerQueueTimer.CallCallback => ExecutionContext.RunInternal => DefaultServerPool.rezCallback
+2019-01-09 15:41:50.9444 DEBUG  deadCount == 1, starting the timer.  TimerQueueTimer.CallCallback => ExecutionContext.RunInternal => DefaultServerPool.rezCallback
+2019-01-09 15:42:00.9597 DEBUG  Checking the dead servers.  TimerQueueTimer.CallCallback => ExecutionContext.RunInternal => DefaultServerPool.rezCallback
+2019-01-09 15:42:00.9597 DEBUG  Dead: Unspecified/172.0.0.1:11211  TimerQueueTimer.CallCallback => ExecutionContext.RunInternal => DefaultServerPool.rezCallback
+2019-01-09 15:42:10.9748 ERROR  Create PooledSocket  MemcachedNode.Ping => BinaryNode.CreateSocket => MemcachedNode.CreateSocket
+2019-01-09 15:42:10.9748 DEBUG  Still dead.  TimerQueueTimer.CallCallback => ExecutionContext.RunInternal => DefaultServerPool.rezCallback
+2019-01-09 15:42:10.9748 DEBUG  deadCount == 1, starting the timer.  TimerQueueTimer.CallCallback => ExecutionContext.RunInternal => DefaultServerPool.rezCallback
+2019-01-09 15:42:20.9959 DEBUG  Checking the dead servers.  TimerQueueTimer.CallCallback => ExecutionContext.RunInternal => DefaultServerPool.rezCallback
+2019-01-09 15:42:21.0029 DEBUG  Dead: Unspecified/172.0.0.1:11211  TimerQueueTimer.CallCallback => ExecutionContext.RunInternal => DefaultServerPool.rezCallback
+2019-01-09 15:42:31.0174 ERROR  Create PooledSocket  MemcachedNode.Ping => BinaryNode.CreateSocket => MemcachedNode.CreateSocket
+2019-01-09 15:42:31.0264 DEBUG  Still dead.  TimerQueueTimer.CallCallback => ExecutionContext.RunInternal => DefaultServerPool.rezCallback
+2019-01-09 15:42:31.0264 DEBUG  deadCount == 1, starting the timer.  TimerQueueTimer.CallCallback => ExecutionContext.RunInternal => DefaultServerPool.rezCallback
+2019-01-09 15:42:41.0373 DEBUG  Checking the dead servers.  TimerQueueTimer.CallCallback => ExecutionContext.RunInternal => DefaultServerPool.rezCallback
+2019-01-09 15:42:41.0373 DEBUG  Dead: Unspecified/172.0.0.1:11211  TimerQueueTimer.CallCallback => ExecutionContext.RunInternal => DefaultServerPool.rezCallback
+2019-01-09 15:42:51.0465 ERROR  Create PooledSocket  MemcachedNode.Ping => BinaryNode.CreateSocket => MemcachedNode.CreateSocket
+2019-01-09 15:42:51.0623 DEBUG  Still dead.  TimerQueueTimer.CallCallback => ExecutionContext.RunInternal => DefaultServerPool.rezCallback
+2019-01-09 15:42:51.0735 DEBUG  deadCount == 1, starting the timer.  TimerQueueTimer.CallCallback => ExecutionContext.RunInternal => DefaultServerPool.rezCallback
+2019-01-09 15:43:01.0859 DEBUG  Checking the dead servers.  TimerQueueTimer.CallCallback => ExecutionContext.RunInternal => DefaultServerPool.rezCallback
+2019-01-09 15:43:01.0859 DEBUG  Dead: Unspecified/172.0.0.1:11211  TimerQueueTimer.CallCallback => ExecutionContext.RunInternal => DefaultServerPool.rezCallback
+2019-01-09 15:43:11.1000 ERROR  Create PooledSocket  MemcachedNode.Ping => BinaryNode.CreateSocket => MemcachedNode.CreateSocket
+2019-01-09 15:43:11.1000 DEBUG  Still dead.  TimerQueueTimer.CallCallback => ExecutionContext.RunInternal => DefaultServerPool.rezCallback
+2019-01-09 15:43:11.1000 DEBUG  deadCount == 1, starting the timer.  TimerQueueTimer.CallCallback => ExecutionContext.RunInternal => DefaultServerPool.rezCallback
+2019-01-09 15:43:21.1221 DEBUG  Checking the dead servers.  TimerQueueTimer.CallCallback => ExecutionContext.RunInternal => DefaultServerPool.rezCallback
+2019-01-09 15:43:21.1221 DEBUG  Dead: Unspecified/172.0.0.1:11211  TimerQueueTimer.CallCallback => ExecutionContext.RunInternal => DefaultServerPool.rezCallback
+2019-01-09 15:43:31.1311 ERROR  Create PooledSocket  MemcachedNode.Ping => BinaryNode.CreateSocket => MemcachedNode.CreateSocket
+2019-01-09 15:43:31.1311 DEBUG  Still dead.  TimerQueueTimer.CallCallback => ExecutionContext.RunInternal => DefaultServerPool.rezCallback
+2019-01-09 15:43:31.1431 DEBUG  deadCount == 1, starting the timer.  TimerQueueTimer.CallCallback => ExecutionContext.RunInternal => DefaultServerPool.rezCallback
+2019-01-09 15:43:41.1485 DEBUG  Checking the dead servers.  TimerQueueTimer.CallCallback => ExecutionContext.RunInternal => DefaultServerPool.rezCallback
+2019-01-09 15:43:41.1485 DEBUG  Dead: Unspecified/172.0.0.1:11211  TimerQueueTimer.CallCallback => ExecutionContext.RunInternal => DefaultServerPool.rezCallback
+2019-01-09 15:43:51.1595 ERROR  Create PooledSocket  MemcachedNode.Ping => BinaryNode.CreateSocket => MemcachedNode.CreateSocket
+2019-01-09 15:43:51.1595 DEBUG  Still dead.  TimerQueueTimer.CallCallback => ExecutionContext.RunInternal => DefaultServerPool.rezCallback
+2019-01-09 15:43:51.1595 DEBUG  deadCount == 1, starting the timer.  TimerQueueTimer.CallCallback => ExecutionContext.RunInternal => DefaultServerPool.rezCallback
+2019-01-09 15:44:01.1797 DEBUG  Checking the dead servers.  TimerQueueTimer.CallCallback => ExecutionContext.RunInternal => DefaultServerPool.rezCallback
+2019-01-09 15:44:01.1797 DEBUG  Dead: Unspecified/172.0.0.1:11211  TimerQueueTimer.CallCallback => ExecutionContext.RunInternal => DefaultServerPool.rezCallback
+2019-01-09 15:44:11.1866 ERROR  Create PooledSocket  MemcachedNode.Ping => BinaryNode.CreateSocket => MemcachedNode.CreateSocket
+2019-01-09 15:44:11.1947 DEBUG  Still dead.  TimerQueueTimer.CallCallback => ExecutionContext.RunInternal => DefaultServerPool.rezCallback
+2019-01-09 15:44:11.1947 DEBUG  deadCount == 1, starting the timer.  TimerQueueTimer.CallCallback => ExecutionContext.RunInternal => DefaultServerPool.rezCallback
+2019-01-09 15:44:21.2071 DEBUG  Checking the dead servers.  TimerQueueTimer.CallCallback => ExecutionContext.RunInternal => DefaultServerPool.rezCallback
+2019-01-09 15:44:21.2071 DEBUG  Dead: Unspecified/172.0.0.1:11211  TimerQueueTimer.CallCallback => ExecutionContext.RunInternal => DefaultServerPool.rezCallback
+2019-01-09 15:44:31.2134 ERROR  Create PooledSocket  MemcachedNode.Ping => BinaryNode.CreateSocket => MemcachedNode.CreateSocket
+2019-01-09 15:44:31.2134 DEBUG  Still dead.  TimerQueueTimer.CallCallback => ExecutionContext.RunInternal => DefaultServerPool.rezCallback
+2019-01-09 15:44:31.2134 DEBUG  deadCount == 1, starting the timer.  TimerQueueTimer.CallCallback => ExecutionContext.RunInternal => DefaultServerPool.rezCallback
+2019-01-09 15:44:41.2332 DEBUG  Checking the dead servers.  TimerQueueTimer.CallCallback => ExecutionContext.RunInternal => DefaultServerPool.rezCallback
+2019-01-09 15:44:41.2393 DEBUG  Dead: Unspecified/172.0.0.1:11211  TimerQueueTimer.CallCallback => ExecutionContext.RunInternal => DefaultServerPool.rezCallback
+2019-01-09 15:44:51.2490 ERROR  Create PooledSocket  MemcachedNode.Ping => BinaryNode.CreateSocket => MemcachedNode.CreateSocket
+2019-01-09 15:44:51.2490 DEBUG  Still dead.  TimerQueueTimer.CallCallback => ExecutionContext.RunInternal => DefaultServerPool.rezCallback
+2019-01-09 15:44:51.2558 DEBUG  deadCount == 1, starting the timer.  TimerQueueTimer.CallCallback => ExecutionContext.RunInternal => DefaultServerPool.rezCallback
+2019-01-09 15:45:01.2690 DEBUG  Checking the dead servers.  TimerQueueTimer.CallCallback => ExecutionContext.RunInternal => DefaultServerPool.rezCallback
+2019-01-09 15:45:01.2690 DEBUG  Dead: Unspecified/172.0.0.1:11211  TimerQueueTimer.CallCallback => ExecutionContext.RunInternal => DefaultServerPool.rezCallback
+2019-01-09 15:45:11.2785 ERROR  Create PooledSocket  MemcachedNode.Ping => BinaryNode.CreateSocket => MemcachedNode.CreateSocket
+2019-01-09 15:45:11.2785 DEBUG  Still dead.  TimerQueueTimer.CallCallback => ExecutionContext.RunInternal => DefaultServerPool.rezCallback
+2019-01-09 15:45:11.2873 DEBUG  deadCount == 1, starting the timer.  TimerQueueTimer.CallCallback => ExecutionContext.RunInternal => DefaultServerPool.rezCallback
+2019-01-09 15:45:21.3014 DEBUG  Checking the dead servers.  TimerQueueTimer.CallCallback => ExecutionContext.RunInternal => DefaultServerPool.rezCallback
+2019-01-09 15:45:21.3014 DEBUG  Dead: Unspecified/172.0.0.1:11211  TimerQueueTimer.CallCallback => ExecutionContext.RunInternal => DefaultServerPool.rezCallback
+2019-01-09 15:45:31.3096 ERROR  Create PooledSocket  MemcachedNode.Ping => BinaryNode.CreateSocket => MemcachedNode.CreateSocket
+2019-01-09 15:45:31.3190 DEBUG  Still dead.  TimerQueueTimer.CallCallback => ExecutionContext.RunInternal => DefaultServerPool.rezCallback
+2019-01-09 15:45:31.3190 DEBUG  deadCount == 1, starting the timer.  TimerQueueTimer.CallCallback => ExecutionContext.RunInternal => DefaultServerPool.rezCallback
+2019-01-09 15:45:41.3378 DEBUG  Checking the dead servers.  TimerQueueTimer.CallCallback => ExecutionContext.RunInternal => DefaultServerPool.rezCallback
+2019-01-09 15:45:41.3545 DEBUG  Dead: Unspecified/172.0.0.1:11211  TimerQueueTimer.CallCallback => ExecutionContext.RunInternal => DefaultServerPool.rezCallback
+2019-01-09 15:45:51.3655 ERROR  Create PooledSocket  MemcachedNode.Ping => BinaryNode.CreateSocket => MemcachedNode.CreateSocket
+2019-01-09 15:45:51.3655 DEBUG  Still dead.  TimerQueueTimer.CallCallback => ExecutionContext.RunInternal => DefaultServerPool.rezCallback
+2019-01-09 15:45:51.3655 DEBUG  deadCount == 1, starting the timer.  TimerQueueTimer.CallCallback => ExecutionContext.RunInternal => DefaultServerPool.rezCallback
+2019-01-09 15:46:01.3888 DEBUG  Checking the dead servers.  TimerQueueTimer.CallCallback => ExecutionContext.RunInternal => DefaultServerPool.rezCallback
+2019-01-09 15:46:01.3931 DEBUG  Dead: Unspecified/172.0.0.1:11211  TimerQueueTimer.CallCallback => ExecutionContext.RunInternal => DefaultServerPool.rezCallback
+2019-01-09 15:46:11.4012 ERROR  Create PooledSocket  MemcachedNode.Ping => BinaryNode.CreateSocket => MemcachedNode.CreateSocket
+2019-01-09 15:46:11.4012 DEBUG  Still dead.  TimerQueueTimer.CallCallback => ExecutionContext.RunInternal => DefaultServerPool.rezCallback
+2019-01-09 15:46:11.4097 DEBUG  deadCount == 1, starting the timer.  TimerQueueTimer.CallCallback => ExecutionContext.RunInternal => DefaultServerPool.rezCallback
+2019-01-09 15:46:21.4155 DEBUG  Checking the dead servers.  TimerQueueTimer.CallCallback => ExecutionContext.RunInternal => DefaultServerPool.rezCallback
+2019-01-09 15:46:21.4155 DEBUG  Dead: Unspecified/172.0.0.1:11211  TimerQueueTimer.CallCallback => ExecutionContext.RunInternal => DefaultServerPool.rezCallback
+2019-01-09 15:46:31.4313 ERROR  Create PooledSocket  MemcachedNode.Ping => BinaryNode.CreateSocket => MemcachedNode.CreateSocket
+2019-01-09 15:46:31.4313 DEBUG  Still dead.  TimerQueueTimer.CallCallback => ExecutionContext.RunInternal => DefaultServerPool.rezCallback
+2019-01-09 15:46:31.4551 DEBUG  deadCount == 1, starting the timer.  TimerQueueTimer.CallCallback => ExecutionContext.RunInternal => DefaultServerPool.rezCallback
+2019-01-09 15:46:41.4795 DEBUG  Checking the dead servers.  TimerQueueTimer.CallCallback => ExecutionContext.RunInternal => DefaultServerPool.rezCallback
+2019-01-09 15:46:41.4795 DEBUG  Dead: Unspecified/172.0.0.1:11211  TimerQueueTimer.CallCallback => ExecutionContext.RunInternal => DefaultServerPool.rezCallback
+2019-01-09 15:46:51.4905 ERROR  Create PooledSocket  MemcachedNode.Ping => BinaryNode.CreateSocket => MemcachedNode.CreateSocket
+2019-01-09 15:46:51.4905 DEBUG  Still dead.  TimerQueueTimer.CallCallback => ExecutionContext.RunInternal => DefaultServerPool.rezCallback
+2019-01-09 15:46:51.4905 DEBUG  deadCount == 1, starting the timer.  TimerQueueTimer.CallCallback => ExecutionContext.RunInternal => DefaultServerPool.rezCallback
+2019-01-09 15:47:01.5132 DEBUG  Checking the dead servers.  TimerQueueTimer.CallCallback => ExecutionContext.RunInternal => DefaultServerPool.rezCallback
+2019-01-09 15:47:01.5132 DEBUG  Dead: Unspecified/172.0.0.1:11211  TimerQueueTimer.CallCallback => ExecutionContext.RunInternal => DefaultServerPool.rezCallback
+2019-01-09 15:47:11.5266 ERROR  Create PooledSocket  MemcachedNode.Ping => BinaryNode.CreateSocket => MemcachedNode.CreateSocket
+2019-01-09 15:47:11.5266 DEBUG  Still dead.  TimerQueueTimer.CallCallback => ExecutionContext.RunInternal => DefaultServerPool.rezCallback
+2019-01-09 15:47:11.5339 DEBUG  deadCount == 1, starting the timer.  TimerQueueTimer.CallCallback => ExecutionContext.RunInternal => DefaultServerPool.rezCallback
+2019-01-09 15:47:21.5375 DEBUG  Checking the dead servers.  TimerQueueTimer.CallCallback => ExecutionContext.RunInternal => DefaultServerPool.rezCallback
+2019-01-09 15:47:21.5375 DEBUG  Dead: Unspecified/172.0.0.1:11211  TimerQueueTimer.CallCallback => ExecutionContext.RunInternal => DefaultServerPool.rezCallback
+2019-01-09 15:47:31.5468 ERROR  Create PooledSocket  MemcachedNode.Ping => BinaryNode.CreateSocket => MemcachedNode.CreateSocket
+2019-01-09 15:47:31.5513 DEBUG  Still dead.  TimerQueueTimer.CallCallback => ExecutionContext.RunInternal => DefaultServerPool.rezCallback
+2019-01-09 15:47:31.5513 DEBUG  deadCount == 1, starting the timer.  TimerQueueTimer.CallCallback => ExecutionContext.RunInternal => DefaultServerPool.rezCallback
+2019-01-09 15:47:41.5706 DEBUG  Checking the dead servers.  TimerQueueTimer.CallCallback => ExecutionContext.RunInternal => DefaultServerPool.rezCallback
+2019-01-09 15:47:41.5706 DEBUG  Dead: Unspecified/172.0.0.1:11211  TimerQueueTimer.CallCallback => ExecutionContext.RunInternal => DefaultServerPool.rezCallback
+2019-01-09 15:47:51.5802 ERROR  Create PooledSocket  MemcachedNode.Ping => BinaryNode.CreateSocket => MemcachedNode.CreateSocket
+2019-01-09 15:47:51.5862 DEBUG  Still dead.  TimerQueueTimer.CallCallback => ExecutionContext.RunInternal => DefaultServerPool.rezCallback
+2019-01-09 15:47:51.5862 DEBUG  deadCount == 1, starting the timer.  TimerQueueTimer.CallCallback => ExecutionContext.RunInternal => DefaultServerPool.rezCallback
+2019-01-09 15:48:01.5989 DEBUG  Checking the dead servers.  TimerQueueTimer.CallCallback => ExecutionContext.RunInternal => DefaultServerPool.rezCallback
+2019-01-09 15:48:01.5989 DEBUG  Dead: Unspecified/172.0.0.1:11211  TimerQueueTimer.CallCallback => ExecutionContext.RunInternal => DefaultServerPool.rezCallback
+2019-01-09 15:48:11.6183 ERROR  Create PooledSocket  MemcachedNode.Ping => BinaryNode.CreateSocket => MemcachedNode.CreateSocket
+2019-01-09 15:48:11.6183 DEBUG  Still dead.  TimerQueueTimer.CallCallback => ExecutionContext.RunInternal => DefaultServerPool.rezCallback
+2019-01-09 15:48:11.6276 DEBUG  deadCount == 1, starting the timer.  TimerQueueTimer.CallCallback => ExecutionContext.RunInternal => DefaultServerPool.rezCallback
+2019-01-09 15:48:21.6325 DEBUG  Checking the dead servers.  TimerQueueTimer.CallCallback => ExecutionContext.RunInternal => DefaultServerPool.rezCallback
+2019-01-09 15:48:21.6325 DEBUG  Dead: Unspecified/172.0.0.1:11211  TimerQueueTimer.CallCallback => ExecutionContext.RunInternal => DefaultServerPool.rezCallback
+2019-01-09 15:48:31.6399 ERROR  Create PooledSocket  MemcachedNode.Ping => BinaryNode.CreateSocket => MemcachedNode.CreateSocket
+2019-01-09 15:48:31.6485 DEBUG  Still dead.  TimerQueueTimer.CallCallback => ExecutionContext.RunInternal => DefaultServerPool.rezCallback
+2019-01-09 15:48:31.6952 DEBUG  deadCount == 1, starting the timer.  TimerQueueTimer.CallCallback => ExecutionContext.RunInternal => DefaultServerPool.rezCallback
+2019-01-09 15:48:41.7123 DEBUG  Checking the dead servers.  TimerQueueTimer.CallCallback => ExecutionContext.RunInternal => DefaultServerPool.rezCallback
+2019-01-09 15:48:41.7123 DEBUG  Dead: Unspecified/172.0.0.1:11211  TimerQueueTimer.CallCallback => ExecutionContext.RunInternal => DefaultServerPool.rezCallback
+2019-01-09 15:48:51.7214 ERROR  Create PooledSocket  MemcachedNode.Ping => BinaryNode.CreateSocket => MemcachedNode.CreateSocket
+2019-01-09 15:48:51.7214 DEBUG  Still dead.  TimerQueueTimer.CallCallback => ExecutionContext.RunInternal => DefaultServerPool.rezCallback
+2019-01-09 15:48:51.7214 DEBUG  deadCount == 1, starting the timer.  TimerQueueTimer.CallCallback => ExecutionContext.RunInternal => DefaultServerPool.rezCallback
+2019-01-09 15:49:01.7414 DEBUG  Checking the dead servers.  TimerQueueTimer.CallCallback => ExecutionContext.RunInternal => DefaultServerPool.rezCallback
+2019-01-09 15:49:01.7414 DEBUG  Dead: Unspecified/172.0.0.1:11211  TimerQueueTimer.CallCallback => ExecutionContext.RunInternal => DefaultServerPool.rezCallback
+2019-01-09 15:49:11.0515 INFO  Request starting HTTP/1.1 GET http://localhost:5001/api/values    <ProcessRequests>d__189`1.MoveNext => HostingApplication.CreateContext => HostingApplicationDiagnostics.LogRequestStarting
+2019-01-09 15:49:11.0515 DEBUG  AuthenticationScheme: Bearer was not authenticated.  AsyncMethodBuilderCore.Start => <AuthenticateAsync>d__48.MoveNext => LoggingExtensions.AuthenticationSchemeNotAuthenticated
+2019-01-09 15:49:11.0515 INFO  Executing endpoint 'ZHCG.WebApi.Controllers.ValuesController.Get (ZHCG.WebApi)'.  AsyncMethodBuilderCore.Start => <Invoke>d__3.MoveNext => Log.ExecutingEndpoint
+2019-01-09 15:49:11.0515 INFO  Route matched with {action = "Get", controller = "Values"}. Executing action ZHCG.WebApi.Controllers.ValuesController.Get (ZHCG.WebApi)  AsyncMethodBuilderCore.Start => <InvokeAsync>d__16.MoveNext => MvcCoreLoggerExtensions.ExecutingAction
+2019-01-09 15:49:11.0956 INFO  Executing action method ZHCG.WebApi.Controllers.ValuesController.Get (ZHCG.WebApi) - Validation state: Valid  AsyncMethodBuilderCore.Start => <InvokeActionMethodAsync>d__12.MoveNext => MvcCoreLoggerExtensions.ActionMethodExecuting
+2019-01-09 15:49:13.0438 ERROR  Create PooledSocket  MemcachedNode.Ping => BinaryNode.CreateSocket => MemcachedNode.CreateSocket
+2019-01-09 15:49:13.0748 INFO  Hello World! Info  <no type>.lambda_method => ValuesController.Get => Logger.Info
+2019-01-09 15:49:13.1008 DEBUG  Still dead.  TimerQueueTimer.CallCallback => ExecutionContext.RunInternal => DefaultServerPool.rezCallback
+2019-01-09 15:49:13.1008 WARN  Hello World! Warn  <no type>.lambda_method => ValuesController.Get => Logger.Warn
+2019-01-09 15:49:13.1165 DEBUG  deadCount == 1, starting the timer.  TimerQueueTimer.CallCallback => ExecutionContext.RunInternal => DefaultServerPool.rezCallback
+2019-01-09 15:49:13.1376 DEBUG  Hello World! Debug  <no type>.lambda_method => ValuesController.Get => Logger.Debug
+2019-01-09 15:49:13.1612 ERROR  Hello World! Error  <no type>.lambda_method => ValuesController.Get => Logger.Error
+2019-01-09 15:49:13.1612 FATAL  Hello World! Fatal  <no type>.lambda_method => ValuesController.Get => Logger.Fatal
+2019-01-09 15:49:24.5051 DEBUG  Checking the dead servers.  TimerQueueTimer.CallCallback => ExecutionContext.RunInternal => DefaultServerPool.rezCallback
+2019-01-09 15:49:24.5275 DEBUG  Dead: Unspecified/172.0.0.1:11211  TimerQueueTimer.CallCallback => ExecutionContext.RunInternal => DefaultServerPool.rezCallback
+2019-01-09 15:49:31.3822 INFO  Executed action method ZHCG.WebApi.Controllers.ValuesController.Get (ZHCG.WebApi), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 20283.2313ms.  AsyncMethodBuilderCore.Start => <InvokeActionMethodAsync>d__12.MoveNext => MvcCoreLoggerExtensions.ActionMethodExecuted
+2019-01-09 15:49:31.3822 INFO  Executing ObjectResult, writing value of type 'System.String[]'.  ObjectResult.ExecuteResultAsync => ObjectResultExecutor.ExecuteAsync => MvcCoreLoggerExtensions.ObjectResultExecuting
+2019-01-09 15:49:31.3822 INFO  Executed action ZHCG.WebApi.Controllers.ValuesController.Get (ZHCG.WebApi) in 20324.0083ms  AsyncMethodBuilderCore.Start => <InvokeAsync>d__16.MoveNext => MvcCoreLoggerExtensions.ExecutedAction
+2019-01-09 15:49:31.4014 INFO  Executed endpoint 'ZHCG.WebApi.Controllers.ValuesController.Get (ZHCG.WebApi)'.  AsyncMethodBuilderCore.Start => <Invoke>d__3.MoveNext => Log.ExecutedEndpoint
+2019-01-09 15:49:31.4014 INFO  Request finished in 20355.2848ms 200 application/json; charset=utf-8  <ProcessRequests>d__189`1.MoveNext => HostingApplication.DisposeContext => HostingApplicationDiagnostics.LogRequestFinished
+2019-01-09 15:49:35.1178 ERROR  Create PooledSocket  MemcachedNode.Ping => BinaryNode.CreateSocket => MemcachedNode.CreateSocket
+2019-01-09 15:49:35.1178 DEBUG  Still dead.  TimerQueueTimer.CallCallback => ExecutionContext.RunInternal => DefaultServerPool.rezCallback
+2019-01-09 15:49:35.1178 DEBUG  deadCount == 1, starting the timer.  TimerQueueTimer.CallCallback => ExecutionContext.RunInternal => DefaultServerPool.rezCallback
+2019-01-09 15:49:45.1370 DEBUG  Checking the dead servers.  TimerQueueTimer.CallCallback => ExecutionContext.RunInternal => DefaultServerPool.rezCallback
+2019-01-09 15:49:45.1370 DEBUG  Dead: Unspecified/172.0.0.1:11211  TimerQueueTimer.CallCallback => ExecutionContext.RunInternal => DefaultServerPool.rezCallback
+2019-01-09 15:49:55.1447 ERROR  Create PooledSocket  MemcachedNode.Ping => BinaryNode.CreateSocket => MemcachedNode.CreateSocket
+2019-01-09 15:49:55.1447 DEBUG  Still dead.  TimerQueueTimer.CallCallback => ExecutionContext.RunInternal => DefaultServerPool.rezCallback
+2019-01-09 15:49:55.1447 DEBUG  deadCount == 1, starting the timer.  TimerQueueTimer.CallCallback => ExecutionContext.RunInternal => DefaultServerPool.rezCallback
+2019-01-09 15:50:05.1662 DEBUG  Checking the dead servers.  TimerQueueTimer.CallCallback => ExecutionContext.RunInternal => DefaultServerPool.rezCallback
+2019-01-09 15:50:05.1662 DEBUG  Dead: Unspecified/172.0.0.1:11211  TimerQueueTimer.CallCallback => ExecutionContext.RunInternal => DefaultServerPool.rezCallback
+2019-01-09 15:50:15.1740 ERROR  Create PooledSocket  MemcachedNode.Ping => BinaryNode.CreateSocket => MemcachedNode.CreateSocket
+2019-01-09 15:50:15.1803 DEBUG  Still dead.  TimerQueueTimer.CallCallback => ExecutionContext.RunInternal => DefaultServerPool.rezCallback
+2019-01-09 15:50:15.1803 DEBUG  deadCount == 1, starting the timer.  TimerQueueTimer.CallCallback => ExecutionContext.RunInternal => DefaultServerPool.rezCallback
+2019-01-09 15:50:25.1957 DEBUG  Checking the dead servers.  TimerQueueTimer.CallCallback => ExecutionContext.RunInternal => DefaultServerPool.rezCallback
+2019-01-09 15:50:25.1957 DEBUG  Dead: Unspecified/172.0.0.1:11211  TimerQueueTimer.CallCallback => ExecutionContext.RunInternal => DefaultServerPool.rezCallback
+2019-01-09 15:50:35.2111 ERROR  Create PooledSocket  MemcachedNode.Ping => BinaryNode.CreateSocket => MemcachedNode.CreateSocket
+2019-01-09 15:50:35.2111 DEBUG  Still dead.  TimerQueueTimer.CallCallback => ExecutionContext.RunInternal => DefaultServerPool.rezCallback
+2019-01-09 15:50:35.2214 DEBUG  deadCount == 1, starting the timer.  TimerQueueTimer.CallCallback => ExecutionContext.RunInternal => DefaultServerPool.rezCallback

@@ -15,7 +15,7 @@ namespace ZHCG.Core.Log
         {
             if (repository == null)
                 repository = LogManager.CreateRepository("NETCoreRepository");
-            XmlConfigurator.Configure(repository, new FileInfo("log4net.config"));
+            XmlConfigurator.Configure(repository, new FileInfo("log4net.config"));            
         }
         public ILog Log
         {

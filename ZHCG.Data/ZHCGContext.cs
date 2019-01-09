@@ -13,5 +13,6 @@ namespace ZHCG.Data
         }
 
         public DbSet<Users> Users { get; set; }
+        public DbSet<Logs> Logs { get; set; }
     }
 }

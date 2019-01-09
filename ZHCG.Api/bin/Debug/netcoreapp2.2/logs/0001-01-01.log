@@ -1,0 +1,6 @@
+0001-01-01 00:00:00.0000 INFO TEST Hello World! Info 100.00 <no type>.lambda_method => ValuesController.Get => Logger.Process
+0001-01-01 00:00:00.0000 DEBUG TEST Hello World! Debug 100.00 <no type>.lambda_method => ValuesController.Get => Logger.Process
+0001-01-01 00:00:00.0000 ERROR TEST Hello World! Error 100.00 <no type>.lambda_method => ValuesController.Get => Logger.Process
+0001-01-01 00:00:00.0000 INFO TEST Hello World! Info 100.00 <no type>.lambda_method => ValuesController.Get => Logger.Process
+0001-01-01 00:00:00.0000 DEBUG TEST Hello World! Debug 100.00 <no type>.lambda_method => ValuesController.Get => Logger.Process
+0001-01-01 00:00:00.0000 ERROR TEST Hello World! Error 100.00 <no type>.lambda_method => ValuesController.Get => Logger.Process
