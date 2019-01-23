@@ -13,14 +13,11 @@ namespace ZHCG.WebApi.Controllers
     [ApiController]
     public class ValuesController : ControllerBase
     {
-        private readonly ILog4NetServer _log4NetServer;
         private readonly ZHCGContext _context;
         private IMemcachedClient _memcachedClient;
-        //static NLog.Logger Logger = NLog.LogManager.GetCurrentClassLogger();
-        public ValuesController(ZHCGContext context, ILog4NetServer log4NetServer, IMemcachedClient memcachedClient)
+        public ValuesController(ZHCGContext context, IMemcachedClient memcachedClient)
         {
             _context = context;
-            _log4NetServer = log4NetServer;
             _memcachedClient = memcachedClient;
         }
 

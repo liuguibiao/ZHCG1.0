@@ -14,7 +14,6 @@ D:\xx\ZHCG1.0\Client\bin\Debug\netcoreapp2.2\Client.runtimeconfig.json
 D:\xx\ZHCG1.0\Client\bin\Debug\netcoreapp2.2\Client.runtimeconfig.dev.json
 D:\xx\ZHCG1.0\Client\bin\Debug\netcoreapp2.2\Client.dll
 D:\xx\ZHCG1.0\Client\bin\Debug\netcoreapp2.2\Client.pdb
-D:\xx\ZHCG1.0\Client\obj\Debug\netcoreapp2.2\Client.csprojAssemblyReference.cache
 D:\xx\ZHCG1.0\Client\obj\Debug\netcoreapp2.2\Client.csproj.CoreCompileInputs.cache
 D:\xx\ZHCG1.0\Client\obj\Debug\netcoreapp2.2\Client.AssemblyInfoInputs.cache
 D:\xx\ZHCG1.0\Client\obj\Debug\netcoreapp2.2\Client.AssemblyInfo.cs

@@ -14,7 +14,6 @@ namespace ZHCG.Core
         public IConfiguration Configuration { get; }
         public void ConfigureServices(IServiceCollection services)
         {
-            services.AddTransient(typeof(ILog4NetServer), typeof(Log4NetServer));
             services.AddEnyimMemcached(options => Configuration.GetSection("enyimMemcached").Bind(options));
             //services.AddEnyimMemcached(options =>
             //{

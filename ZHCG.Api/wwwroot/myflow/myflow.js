@@ -1220,6 +1220,28 @@
                     i = i.substring(0, i.length - 1)
                 }
                 i += "}}}";
+                var workflow = {};
+                var activity = [];
+                var activityRoute = [];
+                var d = eval("[" + i.toString() + "]")[0];
+                for (var k in d.states) {
+                    var prop = d.states[k].props;
+                    var act = {};
+                    act.name = prop.text.value;
+                    act.identifier = prop.identifier.value;
+                    act.remark = prop.remark.value;
+                    activity.push(act);
+                }
+                for (var k in d.paths) {
+                    var path = d.paths[k];
+                    var actRou = {};
+                    actRou.sourceActivityIdentifier = d.states[path.from].props.identifier.value;
+                    actRou.targetActivityIdentifier = d.states[path.to].props.identifier.value;
+                    activityRoute.push(actRou);
+                }
+                workflow.name = d.props.props.name.value;
+                workflow.identifier = d.props.props.identifier.value;
+                workflow.remark = d.props.props.remark.value;
                 a.config.tools.save.onclick(i)
                 console.log(i.toString());
             });
@@ -1291,5 +1313,5 @@
             a.init(this, c)
         })
     };
-    b.myflow = a
+    b.myflow = a;
 })(jQuery);
