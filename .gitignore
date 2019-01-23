@@ -2,3 +2,15 @@
 /ZHCG.Test/bin
 /ZHCG.Core/obj
 /ZHCG.Core/bin
+/.vs
+.vs
+obj
+bin
+*
+/ZHCG.Api/obj
+/ZHCG.Api/bin
+/ZHCG.Applicotion/obj
+/ZHCG.Applicotion/bin
+/ZHCG.Data/obj
+/ZHCG.Data/bin
+/ZHCG.Ocelot/obj
